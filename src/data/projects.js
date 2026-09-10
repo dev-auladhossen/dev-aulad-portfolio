@@ -1,6 +1,6 @@
-import projectTrackingThumb from "../assets/projects/project-tracking-system";
-import inventoryThumb from "../assets/projects/inventory-management-tool";
-import passwordGenThumb from "../assets/projects/password-generator";
+import projectTrackingThumb from "../assets/projects/project-tracking-system.JPG";
+import inventoryThumb from "../assets/projects/inventory-management-tool.JPG";
+import passwordGenThumb from "../assets/projects/password-generator.JPG.";
 
 export const projects = [
   {
