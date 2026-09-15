@@ -1,24 +1,24 @@
 <script setup>
-import { Sun, Moon } from 'lucide-vue-next'
-import { onMounted, ref } from 'vue'
+import { Sun, Moon } from "lucide-vue-next";
+import { onMounted, ref } from "vue";
 
-const isLight = ref(true)
+const isLight = ref(true);
 
 function applyTheme(light) {
-  document.documentElement.setAttribute('data-theme', light ? 'light' : 'dark')
+  document.documentElement.setAttribute("data-theme", light ? "light" : "dark");
 }
 
 function toggleTheme() {
-  isLight.value = !isLight.value
-  applyTheme(isLight.value)
-  localStorage.setItem('theme', isLight.value ? 'light' : 'dark')
+  isLight.value = !isLight.value;
+  applyTheme(isLight.value);
+  localStorage.setItem("theme", isLight.value ? "light" : "dark");
 }
 
 onMounted(() => {
-  const saved = localStorage.getItem('theme')
-  isLight.value = saved === 'light'
-  applyTheme(isLight.value)
-})
+  const saved = localStorage.getItem("theme");
+  isLight.value = saved === "light";
+  applyTheme(isLight.value);
+});
 </script>
 
 <template>
