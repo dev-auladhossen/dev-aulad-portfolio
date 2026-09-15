@@ -27,7 +27,7 @@ const skills = [
         <p>
           Hi there! I'm Aulad, and I like building things end-to-end. I'm a
           full-stack engineer with expertise in crafting responsive,
-          production-ready web applications — from pixel-accurate Vue.js
+          production-ready software & web applications, from pixel-accurate Vue.js
           interfaces to the Node.js APIs and databases that power them. I take
           pride in writing clean, maintainable code and have a sharp eye for the
           details that separate a good feature from a reliable one. I enjoy
@@ -37,31 +37,20 @@ const skills = [
         <p>
           Currently, I'm a Software Programmer at
           <span class="text-lightest-slate font-medium">Caction</span>
-          (formerly SalesConnection), where I develop and optimize responsive
-          Vue.js components from Figma designs, help revamp legacy features for
-          better performance, and collaborate closely with design, QA, and
-          backend teams to ship product features on time. I also maintain daily
-          communication with overseas teams to keep distributed work moving
-          smoothly.
+          (formerly SalesConnection), where I build Vue.js components from Figma
+          designs, modernize legacy features, improve performance, and
+          collaborate with design, QA, backend, and international teams to
+          deliver quality products.
         </p>
         <p>
-          Previously, I worked as a Junior Software Programmer at the same
-          company, converting Figma designs into interactive components and
-          refining UI/UX alongside senior developers — early experience that
-          shaped how I approach both frontend polish and backend structure
-          today. Outside of my day-to-day work, I hold an
+          I hold an
           <span class="text-lightest-slate font-medium"
             >MSc in Computer Science</span
           >
           from Jahangirnagar University and a BSc in Computer Science and
-          Engineering from IUBAT, and I keep building small side projects — from
-          project-tracking tools to utility apps — to stay sharp across the
-          stack.
-        </p>
-        <p>
-          In my spare time, you can usually find me exploring new frameworks,
-          contributing to personal projects, or sharpening my skills through
-          hands-on tutorials and courses.
+          Engineering from IUBAT. Outside of work, I build side projects and
+          continuously explore new technologies to strengthen my skills across
+          the stack.
         </p>
         <p>Here are a few technologies I've been working with recently:</p>
         <ul class="grid grid-cols-2 gap-x-4 gap-y-2 pt-1 font-mono text-sm">

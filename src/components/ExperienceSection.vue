@@ -5,7 +5,8 @@ const jobs = [
     role: "Software Programmer",
     company: "Caction",
     location: "Selangor, Malaysia",
-    responsibilities: "Developed and optimized responsive Vue.js components from Figma designs across Caction's product, improving user experience and load performance. Revamped legacy features, leading to 20% faster performance and reduced UI bugs, while collaborating closely with cross-functional teams — design, QA, and backend — to deliver product features on time. Researched and prepared datasets that supported feature improvements, and maintained daily communication with overseas teams to ensure smooth coordination.",
+    responsibilities:
+      "Developed and optimized responsive Vue.js components from Figma designs across Caction's product, improving user experience and load performance. Revamped legacy features, leading to 20% faster performance and reduced UI bugs, while collaborating closely with cross-functional teams — design, QA, and backend — to deliver product features on time. Researched and prepared datasets that supported feature improvements, and maintained daily communication with overseas teams to ensure smooth coordination.",
     tech: [
       "Vue.js",
       "Node.js",
@@ -23,7 +24,8 @@ const jobs = [
     role: "Junior Software Programmer",
     company: "Caction",
     location: "Selangor, Malaysia",
-    responsibilities: "Converted Figma designs into interactive Vue.js components and designed UI mockups, performing manual testing of new features throughout development. Worked closely with senior developers to refine UI/UX and resolve frontend issues, building a strong foundation in component-driven development and design collaboration.",
+    responsibilities:
+      "Converted Figma designs into interactive Vue.js components and designed UI mockups, performing manual testing of new features throughout development. Worked closely with senior developers to refine UI/UX and resolve frontend issues, building a strong foundation in component-driven development and design collaboration.",
     tech: ["Vue.js", "PrimeVue", "Figma", "Git", "Chrome DevTools"],
   },
 ];
@@ -31,11 +33,14 @@ const jobs = [
 
 <template>
   <section id="experience" class="scroll-mt-24 my-16">
-    <div class="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-      <h2 class="font-bold uppercase tracking-widest lg:sr-only text-sm sm:text-xl text-lightest-slate">
+    <div
+      class="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
+    >
+      <h2
+        class="font-bold uppercase tracking-widest lg:sr-only text-sm sm:text-xl text-lightest-slate"
+      >
         Experience
       </h2>
-
     </div>
     <ol class="space-y-14">
       <li
@@ -53,8 +58,8 @@ const jobs = [
 
           <p>
             <span class="mt-2 text-sm leading-relaxed text-slate max-w-lg">
-            {{ job.responsibilities }}
-          </span>
+              {{ job.responsibilities }}
+            </span>
           </p>
 
           <ul class="mt-4 flex flex-wrap gap-2">
